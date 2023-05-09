@@ -19,6 +19,15 @@
 
 .form-control input:focus {
   outline: none;
-  background: #fad0ec;
+  background: #e1d5dd;
   border-color: #8b005d;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background: #fad0ec;
+}
+
+.form-control.invalid label {
+  color: red;
 }
